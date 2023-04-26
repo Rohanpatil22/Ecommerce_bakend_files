@@ -1,18 +1,28 @@
 {
   "name": "e-commerce_app_backend",
   "version": "1.0.0",
-  "description": "",
-  "type":"module",
+  "description": "Ecommerce bakend  files",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node index.js"
+    "start": "node index.js"
   },
   "author": "Rohan Patil",
   "license": "ISC",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
     "mongoose": "^7.0.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rohanpatil22/Ecommerce_bakend_files.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Rohanpatil22/Ecommerce_bakend_files/issues"
+  },
+  "homepage": "https://github.com/Rohanpatil22/Ecommerce_bakend_files#readme"
 }

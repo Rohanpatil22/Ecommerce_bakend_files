@@ -1,7 +1,4 @@
-process.on('uncaughtException', function (err) {
-    console.log(err);
-  });
-  
+
 import mongoose from "mongoose";
 import app from "./src/app.js";
 import config from "./src/config/index.js";
